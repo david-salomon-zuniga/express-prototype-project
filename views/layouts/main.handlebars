@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Meadowlark Travel</title>
+  </head>
+  <body>
+    <header>
+      <img src="../../public/imgs/logo.png" alt="Meadowlark Travel Logo">
+    </header>
+    {{{body}}}
+  </body>
+</html>
+
+<!--
+
+This creates a view engine and configures Express to use it by default. 
+Now create a directory called views that has a subdirectory called layouts. 
+If you’re an experienced web developer, you’re probably already comfortable with the concepts of layouts 
+(sometimes called master pages). 
+
+When you build a website, there’s a certain amount of HTML that’s the same—or very close to the same—on every page. 
+It not only becomes tedious to rewrite all that repetitive code for every page, but also creates a potential 
+maintenance nightmare: if you want to change something on every page, you have to change all the files. 
+Layouts free you from this, providing a common framework for all the pages on your site.
+So let’s create a template for our site. Create a file called views/layouts/main.handlebars:
+
+
+The only thing that you probably haven’t seen before is this: {{{body}}}. This expression will be replaced with the 
+HTML for each view. When we created the Handlebars instance, note we specified the default layout (defaultLayout: \'main'). 
+That means that unless you specify otherwise, this is the layout that will be used for any view.
+
+-->

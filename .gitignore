@@ -1,0 +1,9 @@
+# ignore packages installed by npm
+node_modules
+# backup files with a tilde at the end (like meadowlark.js~)
+*~
+# on a Mac, you’ll want to put .DS_Store in there
+.DS_Store
+
+# Entries in the .gitignore file also apply to subdirectories. So if you put *~ in the .gitignore in the project root, 
+# all such backup files will be ignored even if they are in subdirectories.
